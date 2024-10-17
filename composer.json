@@ -1,0 +1,20 @@
+{
+    "name": "empaphy/polyphill-uuid",
+    "description": "A metapackage that installs a UUID polyfill if needed, and removes it if redundant.",
+    "version": "1.0.0",
+    "type": "metapackage",
+    "keywords": ["compatibility", "polyfill", "portable", "shim", "uuid"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/empaphy/polyphill-uuid/issues"
+    },
+    "require": {
+        "symfony/polyfill-uuid": "^1"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "provide": {
+        "symfony/polyfill-uuid": "*"
+    }
+}
